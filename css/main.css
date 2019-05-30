@@ -1,0 +1,35 @@
+html {
+  font-family: Overpass, sans-serif;
+  color: #fff;
+  background-image: linear-gradient(to bottom, #ff9500, #ff5e3a);
+}
+
+.btn {
+  color: #fff;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 4px;
+  border-color: #fff;
+}
+
+.btn:hover {
+  background-color: #fff;
+  border-color: #fff;
+  color: #ff5e3a;
+}
+
+.border-unit {
+  border-top: 2px solid rgba(255, 255, 255, .3);
+  border-bottom: 2px solid rgba(255, 255, 255, .3);
+}
+
+@media only screen and (min-width: 60em) {
+
+  .border-unit {
+    border-top: none;
+    border-bottom: none;
+    border-left: 2px solid #fff;
+    border-right: 2px solid #fff;
+  }
+
+}
